@@ -3,8 +3,8 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const htmlRoute = require('./routes/html');
-const apiRoute = require('./routes/api');
+const htmlRoute = require('./routes/html-routes');
+const apiRoute = require('./routes/api-routes');
 
 // Middleware
 // Set URL encded format; Set to false to use query string library, excludes more complex objects
