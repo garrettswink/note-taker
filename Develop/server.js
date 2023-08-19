@@ -1,7 +1,8 @@
 // Import express, set up port, and import routes
 const express = require('express');
+const router = express.Router();
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 const htmlRoute = require('./routes/html-routes');
 const apiRoute = require('./routes/api-routes');
@@ -15,8 +16,8 @@ app.use(express.json());
 app.use(express.static('public'));
 
 // Routes
-app.use('/', htmlRoute);
-app.use('/api', apiRoute);
+app.use(htmlRoute);
+app.use(apiRoute);
 
 // Start server
 app.listen(PORT, () => {
