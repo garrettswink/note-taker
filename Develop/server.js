@@ -1,7 +1,7 @@
 // Import express, port, and routes
 const express = require('express');
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 5001;
 
 const htmlRoute = require('./routes/html-routes');
 const apiRoute = require('./routes/api-routes');
