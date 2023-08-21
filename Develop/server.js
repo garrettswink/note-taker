@@ -1,6 +1,5 @@
-// Import express, set up port, and import routes
+// Import express, port, and routes
 const express = require('express');
-const router = express.Router();
 const app = express();
 const PORT = process.env.PORT || 3001;
 
@@ -21,5 +20,5 @@ app.use(apiRoute);
 
 // Start server
 app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}.`);
+    console.log(`Server is running on http://localhost:${PORT}`);
 });
