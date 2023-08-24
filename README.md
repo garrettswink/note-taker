@@ -33,3 +33,4 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 https://new-note-taker-8c633e15e27f.herokuapp.com/
 
 ## Demo
+![Untitled design](https://github.com/garrettswink/note-taker/assets/22800055/dd4cf80b-f454-493e-bec7-cf0b0eaff21f)
