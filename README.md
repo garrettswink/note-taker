@@ -1,4 +1,4 @@
-# Readme File Generator
+# Note Taking App
 Created by Garrett Swink
 
 ## User Story
